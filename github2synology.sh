@@ -1,6 +1,6 @@
 #!/bin/sh
 # token from https://github.com/settings/tokens
-OAUTH_TOKEN="[YOPUR TOKEN HERE]"
+OAUTH_TOKEN="[YOUR TOKEN HERE]"
 BACKUP_PATH="/volume1/Sourcecode/GitHub"
 API_URL="https://api.github.com/user/repos?type=owner&per_page=100&page=1"
 
