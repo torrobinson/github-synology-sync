@@ -9,15 +9,15 @@ Due to API limitations, this only backs up the first 100 repositories.
 
 ## Instructions
 
- - [ ] Create an OAuth tok
+ - [ ] Create an OAuth token
 	 - [ ]  Go to https://github.com/settings/tokens
 	 - [ ]  Click the "Personal Access Tokens" tab
 	 - [ ]  Click "Generate new token"
 	 - [ ]  Check the scopes `repo` and `read:user`
-	 - [ ]  Create the token and immediately copy and paste it into `github2synology.sh` into the `OAUTH_TOKEN` variable.
+	 - [ ]  Create the token and immediately copy and paste it in `github2synology.sh`, into the `OAUTH_TOKEN` variable.
  - [ ]  Drop the script (`github2synology.sh`) somewhere on your NAS
 	 - [ ]  For example, I dropped it in a `(root)\sourcecode\GitHub` shared folder
-	 - [ ] Edit `github2synology.sh` and update the `BACKUP_PATH` variable to reflect where you've dropped the script and want your repos backed-up to
+	 - [ ]  Edit `github2synology.sh` and update the `BACKUP_PATH` variable to reflect where you've dropped the script and want your repos backed-up to
  - [ ]  Create the scheduled task
 	 - [ ]  Open Control Panel -> System -> Task Scheduler
 	 - [ ]  Click Create -> Scheduled Task -> User-defined script
