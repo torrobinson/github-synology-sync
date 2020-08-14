@@ -3,6 +3,8 @@
 
 A small bash script I use to regularly backup all my GitHub repos to my Synology NAS.
 
+This repo serves mainly as a backup for my solution, should I lose it in the future.
+
 It will use the GitHub API to iterate through all your **owned** public and private repositories, and back up every `master` branch, zipped, onto your Synology NAS.
 
 Due to API limitations, this only backs up the first 100 repositories.
