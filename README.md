@@ -26,11 +26,9 @@ Due to API limitations, this only backs up the first 100 repositories.
 	 - [ ]  **General Tab:**
 		 - [ ] Give it a name and select your `root` user
 		 
-		![Edit Task](https://www.files.torrobinson.com/captures/2020_08_13_204548_mstsc.png)
 	 - [ ]  **Schedule Tab:**
 		 - [ ]  Fill out any schedule as you need
 		 
-		![Schedule Task](https://www.files.torrobinson.com/captures/2020_08_13_204722_mstsc.png)
 	 - [ ]  **Task Settings Tab**
 		 - [ ]   Enter the "Run command" as follows, replacing "sourcecode/GitHub" with the shared folder you created, if different:
 		```bash
@@ -38,10 +36,8 @@ Due to API limitations, this only backs up the first 100 repositories.
 		``` 
 			
 		
-		![Task Settings](https://www.files.torrobinson.com/captures/2020_08_13_204736_mstsc.png)
 		 - [ ]  Click "OK" to create the task
 		 
  - [ ]  Right-click your new User-defined script and click "Run" to immediately run the task.
- ![Run Task](https://www.files.torrobinson.com/captures/2020_08_13_204952_mstsc.png)
 
 
